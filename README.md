@@ -19,7 +19,7 @@ A step by step series of examples that tell you how to get a development environ
 
 1. Clone the repo
 ```bash
-git clone https://github.com/your_username_/Project-Name.git
+https://github.com/ronknight/URL-Status-Checker.git
 ```
 
 2. Install Python packages
