@@ -42,10 +42,6 @@ python main.py
 3. These filenames are then converted to URLs using a base URL.
 4. The script then checks if these URLs exist and writes the status to a CSV file.
 
-## Authors
-
-* **Your Name** - *Initial work* - [YourUsername](https://github.com/your_username_)
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
