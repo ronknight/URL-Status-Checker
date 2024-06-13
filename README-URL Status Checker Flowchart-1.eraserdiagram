@@ -1,0 +1,29 @@
+flowchart-diagram
+
+title URL Status Checker Flowchart
+
+// Grouping prerequisites and installation steps
+Prerequisites [color: lightblue] {
+  Install Python 3.x [icon: python]
+  Install requests library [icon: package]
+}
+
+Installation [color: lightgreen] {
+  Clone the repo [icon: git-branch]
+  Install Python packages [icon: package]
+}
+
+// Main process flow
+Start [shape: oval, icon: play-circle] > Get filenames in directory [icon: folder]
+Get filenames in directory > Filter for .png files [icon: image]
+Filter for .png files > Convert filenames to URLs [icon: link]
+Convert filenames to URLs > Check URL status [icon: check-circle]
+Check URL status > Write status to CSV [icon: file-text]
+Write status to CSV > End [shape: oval, icon: stop-circle]
+
+// Connections for prerequisites and installation
+Install Python 3.x > Install requests library
+Install requests library > Clone the repo
+Clone the repo > Install Python packages
+Install Python packages > Start
+
